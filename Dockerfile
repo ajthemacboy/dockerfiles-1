@@ -84,7 +84,6 @@ COPY postrm /usr/bin/
 COPY config.js /usr/flood/
 COPY rtorrent.rc /home/torrent/.rtorrent.rc
 COPY proxychains.conf /etc/proxychains.conf
-COPY proxychains4 /usr/bin/proxychains4
 
 RUN chmod +x /usr/bin/* /etc/s6.d/*/* /etc/s6.d/.s6-svscan/*
 
